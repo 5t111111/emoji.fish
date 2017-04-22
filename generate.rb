@@ -22,23 +22,23 @@ end.version.to_s
 
 emojis = entries.map do |entry|
   "'#{entry.name}' '#{entry.raw}'"
-end.join(" \\\n")
+end.join(" \\\n    ")
 
 puts <<~END
-  #!/usr/bin/env fish
+  function emoji -d "Fish implementation of emoji code source list"
+      set emojis \\
+      #{emojis}
 
-  set emojis \\
-  #{emojis}
+      set is_key t
 
-  set is_key t
-
-  for i in $emojis
-      if test $is_key = t
-          set is_key f
-          set key $i
-      else
-          builtin echo "$i  $key"
-          set is_key t
+      for i in $emojis
+          if test $is_key = t
+              set is_key f
+              set key $i
+          else
+              builtin echo "$i  $key"
+              set is_key t
+          end
       end
   end
 END
