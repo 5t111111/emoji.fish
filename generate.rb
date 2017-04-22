@@ -25,7 +25,7 @@ emojis = entries.map do |entry|
 end.join(" \\\n    ")
 
 puts <<~END
-  function emoji -d "Fish implementation of emoji code source list"
+  function emoji_codes -d "Fish implementation of emoji code source list"
       set emojis \\
       #{emojis}
 

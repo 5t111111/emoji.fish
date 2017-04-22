@@ -1,4 +1,4 @@
-function emoji -d "Fish implementation of emoji code source list"
+function emoji_codes -d "Fish implementation of emoji code source list"
     set emojis \
     '+1' '👍' \
     '-1' '👎' \
