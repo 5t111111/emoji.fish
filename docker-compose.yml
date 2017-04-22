@@ -3,7 +3,7 @@ services:
   app:
     build:
       context: .
-    command: "bash -c 'bundle && bundle exec ruby generate.rb > functions/emoji.fish && chmod 755 functions/emoji.fish'"
+    command: "bash -c 'bundle && bundle exec ruby generate.rb > functions/emoji_codes.fish && chmod 755 functions/emoji_codes.fish'"
     volumes:
       - .:/emoji.fish
       - bundle-data:/usr/local/bundle/
