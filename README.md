@@ -9,7 +9,11 @@ Fish implementation of [emoji code](https://www.webpagefx.com/tools/emoji-cheat-
 
 ## :package: Installation
 
-Just download or clone this repository and put `emoji_codes.fish` into a directory known in your `PATH`.
+```
+fisher unreliable-angels/emoji_codes
+```
+
+Or just download or clone this repository and put `emoji_codes.fish` into a directory known in your `PATH`.
 
 
 ## :hammer_and_wrench: Example configuration
