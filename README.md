@@ -4,7 +4,7 @@ Fish implementation of [emoji code](https://www.webpagefx.com/tools/emoji-cheat-
 
 (Both concept and implementaion are strongly based on [zaw-emoji](https://github.com/mzp/zaw-emoji) :v:)
 
-![](https://github.com/5t111111/fish-plugin-emoji_codes/blob/master/screenshot.png?raw=true)
+![](https://github.com/unreliable-angels/emoji_codes/blob/master/screenshot.png?raw=true)
 
 
 ## :package: Installation
@@ -18,7 +18,7 @@ Or just download or clone this repository and put `emoji_codes.fish` into a dire
 
 ## :hammer_and_wrench: Example configuration
 
-- [peco](https://github.com/5t111111/fish-plugin-emoji_codes/blob/master/examples/peco_select_emoji.fish)
+- [peco](https://github.com/unreliable-angels/emoji_codes/blob/master/examples/peco_select_emoji.fish)
 
 
 ## :copyright: License
