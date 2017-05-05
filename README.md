@@ -1,4 +1,4 @@
-# :smile: fish-plugin-emoji_codes
+# :smile: emoji_codes
 
 Fish implementation of [emoji code](https://www.webpagefx.com/tools/emoji-cheat-sheet/) source for the purpose of using along with an interactive filtering tool like [peco](https://github.com/peco/peco).
 
